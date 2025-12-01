@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Info Portal</title>
+
+    <style>
+        body {
+            margin: 0;
+            font-family: "Poppins", Arial, sans-serif;
+            background: linear-gradient(to bottom right, #e9f1ff, #ffffff);
+            color: #333;
+        }
+
+        /* HEADER */
+        header {
+            background: linear-gradient(to right, #6a11cb, #2575fc);
+            padding: 30px 10px;
+            text-align: center;
+            color: white;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 34px;
+            letter-spacing: 1px;
+        }
+
+        /* NAVIGATION BAR */
+        nav {
+            background: white;
+            box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+        }
+
+        nav ul {
+            list-style: none;
+            margin: 0;
+            padding: 12px;
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: #2575fc;
+            padding: 10px 18px;
+            font-weight: 600;
+            border-radius: 20px;
+            transition: 0.3s;
+        }
+
+        nav ul li a:hover {
+            background: #2575fc;
+            color: white;
+        }
+
+        /* MAIN CONTENT */
+        main {
+            margin: 50px auto;
+            padding: 30px;
+            max-width: 850px;
+            background: white;
+            border-radius: 18px;
+            box-shadow: 0 5px 20px rgba(0,0,0,0.1);
+            text-align: center;
+        }
+
+        main h2 {
+            font-size: 30px;
+            color: #6a11cb;
+            margin-bottom: 15px;
+        }
+
+        main p {
+            font-size: 17px;
+            line-height: 1.6;
+            padding: 0 20px;
+        }
+
+        /* FOOTER */
+        footer {
+            margin-top: 60px;
+            background: #f0f4ff;
+            text-align: center;
+            padding: 18px;
+            font-size: 15px;
+            color: #555;
+            border-top: 2px solid #d6e3ff;
+        }
+
+        /* RESPONSIVE */
+        @media (max-width: 720px) {
+            nav ul {
+                flex-direction: column;
+                gap: 10px;
+            }
+
+            main {
+                margin: 20px;
+                padding: 20px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- HEADER -->
+    <header>
+        <h1>Student Info Portal</h1>
+    </header>
+
+    <!-- NAVIGATION -->
+    <nav>
+        <ul>
+            <li><a href="#">Dashboard</a></li>
+            <li><a href="#">Students</a></li>
+            <li><a href="#">Academics</a></li>
+            <li><a href="#">Support</a></li>
+        </ul>
+    </nav>
+
+    <!-- MAIN CONTENT CARD -->
+    <main>
+        <h2>Welcome to the Modern Portal</h2>
+        <p>
+            Explore a refreshed and redesigned interface made for smooth navigation
+            and better readability. Access student information, academic updates, 
+            results, and support features using the menu above.
+        </p>
+    </main>
+
+    <!-- FOOTER -->
+    <footer>
+        © 2025 Student Info Portal — A Modern Academic Interface
+    </footer>
+
+</body>
+</html>
